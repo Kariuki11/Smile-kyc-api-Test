@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import { KYCController } from '../controllers/kyc.controller';
-
 const router = Router();
 const kycController = new KYCController();
 
